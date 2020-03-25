@@ -86,8 +86,7 @@
     }
 
     .footer-box {
-        display: inline-grid;
-       
+        display: inline-grid;       
         justify-content: center;
     }
 
