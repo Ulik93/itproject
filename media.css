@@ -1,0 +1,234 @@
+@media (max-width: 1200px) {
+    .top-header {
+        justify-content: space-around;
+    }
+
+    .s-items {
+        margin-left: 20px;
+    }
+
+    .about-list {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .about-us-title h2 {
+        margin-left: 38px;
+    }
+
+    .col-4 {
+        padding: 25px;
+    }
+
+    .all-projects-img {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .burger{
+        display: inline-block;
+        position: fixed;
+       margin-left: 300px;
+    }
+    .top-menu{display: none;
+    }
+    .top-menu.show{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background: cadetblue;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+    }
+    .top-menu.show a{
+        margin: 10px 0 0;
+    }
+
+}
+    .header-title {
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    h4 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .about-list-item {
+        display: inline-block;
+        margin: 0 20px;
+    }
+
+    .service-item {
+        padding: 15px;
+    }
+
+    .col-6 {
+        padding: 0 30px;
+    }
+
+    .play {
+        max-width: 700px;
+    }
+
+    .footer-box {
+        display: inline-grid;
+        grid-template-columns: 3fr 1fr;
+        justify-content: center;
+    }
+
+    @media (max-width: 768px) {
+        .top-menu_item {
+            font-size: 11px;
+        }
+
+        .header-title {
+            font-size: 27px;
+        }
+
+
+        .group1-title {
+            margin-top: 110px;
+            padding: 0;
+        }
+
+        h3 {
+            font-size: 27px;
+            line-height: 38px;
+
+        }
+
+        p {
+            font-size: 8px;
+            line-height: 18px;
+        }
+
+        .ellipse1 {
+            width: 80px;
+            height: 80px;
+        }
+
+        .ellipse2 {
+            width: 70px;
+            height: 70px;
+        }
+
+        .project {
+            top: 14px;
+            left: 12px;
+        }
+
+        .about-title {
+
+            font-size: 30px;
+            line-height: 40px;
+
+        }
+
+        .about-text p {
+            font-size: 11px;
+            line-height: 18px;
+        }
+
+        .about-list {
+            display: flow-root;
+        }
+
+        .about-us-title h2 {
+
+            font-size: 30px;
+            line-height: 35px;
+        }
+
+        .about-us-title .btn {
+            margin-right: 20px;
+        }
+
+        .col-4 {
+            padding: 18px;
+        }
+
+        .all-projects-img {
+            padding: 5px;
+        }
+
+        .play {
+
+            height: 394px;
+            background: url(https://i.ibb.co/vw1rZmZ/playbg.png);
+            top: 230px;
+            width: 453px;
+        }
+
+        .footer-box {
+            display: inline-grid;
+            grid-template-columns: 2fr 1fr;
+            justify-content: center;
+        }
+
+        @media (max-width: 540px) {
+            .logo {
+
+                margin-left: 120px;
+            }
+
+            .top-header {
+                justify-content: space-around;
+                display: block;
+            }
+
+            h3 {
+                font-size: 20px;
+                line-height: 29px;
+            }
+
+            .group1-text {
+                padding-left: 15px;
+            }
+
+            .s-items {
+                display: grid;
+            }
+
+            .i-text {
+                flex-wrap: nowrap;
+            .i-text h4 {
+                margin-bottom: 35px;}
+            #about-us:before {
+                content: '';
+                height: 17%;
+            }
+            .col-4 {
+                width: 100%;
+            }
+            .play {
+                height: 386px;
+                background: url(https://i.ibb.co/vw1rZmZ/playbg.png);
+                top: 273px;
+                width: 300px;
+            }
+            .subscribe-email {
+
+                width: 265px;
+                left: 90px;
+            }
+            .subscribe-btn {
+                width: 120px;
+                right: 101px;
+            }
+
+        }
