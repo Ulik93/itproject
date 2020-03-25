@@ -554,7 +554,7 @@ header {
 }
 .footer-box{
     display: grid;
-    grid-template-columns: 255px 245px 245px 245px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
 }
 .footer-info h4{
