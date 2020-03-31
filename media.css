@@ -26,12 +26,17 @@
 }
 
 @media (max-width: 992px) {
-    .burger{
+    .burger {
         display: flex;
+        position: fixed;
+        right: 10px;
     }
-    .top-menu{display: none;
+
+    .top-menu {
+        display: none;
     }
-    .top-menu.show{
+
+    .top-menu.show {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -44,21 +49,14 @@
         height: 100%;
         z-index: 2;
     }
-    .top-menu.show a{
+
+    .top-menu.show a {
         margin: 10px 0 0;
     }
 
-}
     .header-title {
         font-size: 32px;
         line-height: 45px;
-    }
-
-    h4 {
-        font-style: normal;
-        font-weight: 600;
-        font-size: 13px;
-        line-height: 20px;
     }
 
     p {
@@ -83,10 +81,7 @@
         max-width: 700px;
     }
 
-    .footer-box {
-        display: inline-grid; 1fr 1fr 1fr 1fr;      
-        justify-content: center;
-    }
+}
 
     @media (max-width: 768px) {
         .top-menu_item {
@@ -110,8 +105,8 @@
         }
 
         p {
-            font-size: 8px;
-            line-height: 18px;
+            font-size: 16px;
+            line-height: 25px;
         }
 
         .ellipse1 {
@@ -140,11 +135,6 @@
             font-size: 11px;
             line-height: 18px;
         }
-
-        .about-list {
-            display: flow-root;
-        }
-
         .about-us-title h2 {
 
             font-size: 30px;
@@ -170,62 +160,160 @@
             top: 230px;
             width: 453px;
         }
+    }
 
-        .footer-box {
-            display: inline-grid;
-            grid-template-columns: 2fr 1fr;
-            justify-content: center;
-        }
 
-        @media (max-width: 540px) {
-            .logo {
 
-                margin-left: 120px;
-            }
+@media (max-width: 540px) {
+    .logo {
 
-            .top-header {
-                justify-content: space-around;
-                
-            }
+        margin-left: 120px;
+    }
 
-            h3 {
-                font-size: 20px;
-                line-height: 29px;
-            }
+    .top-header {
+        justify-content: space-around;
 
-            .group1-text {
-                padding-left: 15px;
-            }
+    }
 
-            .s-items {
-                display: grid;
-            }
+    h3 {
+        font-size: 20px;
+        line-height: 29px;
+    }
 
-            .i-text {
-                flex-wrap: nowrap;
-            .i-text h4 {
-                margin-bottom: 35px;}
-            #about-us:before {
-                content: '';
-                height: 17%;
-            }
-            .col-4 {
-                width: 100%;
-            }
-            .play {
-                height: 386px;
-                background: url(https://i.ibb.co/vw1rZmZ/playbg.png);
-                top: 273px;
-                width: 300px;
-            }
-            .subscribe-email {
+    .group1 {
+        display: contents;
+    }
 
-                width: 265px;
-                left: 90px;
-            }
-            .subscribe-btn {
-                width: 120px;
-                right: 101px;
-            }
+    .group1-text {
+        padding-left: 15px;
+    }
 
-        }
+    .s-items {
+        display: grid;
+    }
+
+    .i-text {
+        flex-wrap: nowrap;
+    }
+
+    .i-text p {
+        margin-left: 10px;
+        margin-top: 30px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .group1-title {
+        font-size: 36px;
+        line-height: 53px;
+        text-align: center;
+    }
+
+    .group1-text {
+        font-size: 16px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    .service-item .btn {
+        margin-left: 75px;
+    }
+
+    .row {
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .i-text h4 {
+        margin-bottom: 35px;
+    }
+
+    #about-us:before {
+        content: '';
+        height: 17%;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .play {
+        height: 386px;
+        background: url(https://i.ibb.co/vw1rZmZ/playbg.png);
+        top: 273px;
+        width: 300px;
+    }
+
+    .subscribe-email {
+
+        width: 265px;
+        left: 90px;
+    }
+
+    .subscribe-btn {
+        width: 120px;
+        right: 101px;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .about-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-us-title {
+        flex-direction: column;
+    }
+
+    .about-us-title h2 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .about-us-title h2 {
+        text-align: center;
+    }
+
+    .about-us-title .btn {
+        margin-top: 20px;
+    }
+
+    .all-projects-img {
+        flex-direction: column;
+    }
+
+    .col-3 {
+        width: 100%;
+    }
+
+    .play-btn {
+        width: 220px;
+    }
+
+    .subscribe-email {
+        width: 265px;
+        left: 25px;
+    }
+
+    .subscribe-input {
+        width: 340px;
+    }
+
+    .subscribe-btn {
+        width: 120px;
+        right: 15px;
+    }
+    .footer-box {
+        flex-direction: column;
+    }
+
+}
+
+
+
